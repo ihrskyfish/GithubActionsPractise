@@ -11,7 +11,7 @@ jobs:
        - name: read  reposity
          uses: actions/checkout@v2
        - name: see
-         uses: ls -l
+         run: ls -l
 
        - name: single comment
          run: echo Hello, world!
