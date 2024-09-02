@@ -22,4 +22,4 @@ jobs:
        - name: build dir and file test
          run: |
           mkdir buiid
-          echo test, and deploy your project. > build/test.txt
+          touch test
