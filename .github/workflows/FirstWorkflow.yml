@@ -8,6 +8,11 @@ jobs:
    first_job:
       runs-on: ubuntu-latest
       steps:
+       - name: read  reposity
+         uses: actions/checkout@v2
+       - name: see
+         uses: ls -l
+
        - name: single comment
          run: echo Hello, world!
        - name: Run a multi-line script
